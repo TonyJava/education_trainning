@@ -24,6 +24,8 @@ img {
 }
 .fl {
 	float: left;
+	margin-top: 30px;
+	margin-left: -100px;
 }
 .fr {
 	float: right;
