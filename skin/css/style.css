@@ -24,6 +24,8 @@ img {
 }
 .fl {
 	float: left;
+}
+.fl.logo{
 	margin-top: 30px;
 	margin-left: -100px;
 }
