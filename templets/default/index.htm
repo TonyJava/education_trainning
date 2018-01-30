@@ -1,0 +1,217 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="author" content="order by dede58.com" />
+<script type=text/javascript src="/skin/js/jquery-1.8.0.min.js"></script>
+<script type=text/javascript src="/skin/js/jquery.jslides.js"></script>
+<link rel="stylesheet" type="text/css" href="/skin/css/style.css">
+</head>
+
+<body>
+<!---------头部----------> 
+{dede:include filename="head.htm"/} 
+<!---------banner轮播---------->
+<div class="banner">
+  <div id="full-screen-slider">
+    <ul id="slides">
+      <li style="background:url(/skin/images/banner.jpg) no-repeat center top;left:0px;"></li>
+      <li style="background:url(/skin/images/banner2.jpg) no-repeat center top;left:0px;"></li>
+      <li style="background:url(/skin/images/banner3.jpg) no-repeat center top;left:0px;"></li>
+    </ul>
+  </div>
+</div>
+<!---------主体start--------->
+<div class="wrapper"> 
+  <!--课程体系-->
+  <div id="kctx" class="cont">
+    <h1>课程体系</h1>
+    <div class="container">
+      <div style="width:1020px;overflow:hidden;"> {dede:arclist typeid='3' row='3' titlelen='50' infolen='120'}
+        <div class="box fl">
+          <div class="title">[field:title/]</div>
+          <div class="pd nr">
+            <div class="pic fl"><img src='[field:picname/]' border='0' width='120' height='120' alt='[field:title/]'></div>
+            <div class="txt fr">[field:info/]...<a href="[field:arcurl/]"><img src="/skin/images/kc.jpg"></a></div>
+          </div>
+        </div>
+        {/dede:arclist} </div>
+    </div>
+  </div>
+  <img src="/skin/images/adv.jpg" style="margin:13px 0;"> 
+  <!--明星学员-->
+  <div id="star" class="cont"> {dede:type typeid='1'}
+    <h1><a href="[field:typelink/]" class="fr"><img src="/skin/images/more.jpg" ></a>[field:typename/]</h1>
+    {/dede:type}
+    <div class="container">
+      <div class="fl"> <img src="/skin/images/titlebg.jpg">
+        <div class="list">
+          <ul class="title">
+            <li>姓名</li>
+            <li>学历</li>
+            <li>目前状态</li>
+            <li style="width:140px;">所学专业</li>
+            <li style="width:160px;">就业单位</li>
+            <li style="text-align:center;">月薪</li>
+            <li style="text-align:center;">时间</li>
+          </ul>
+          <ul>
+            <li>方*春</li>
+            <li>大专</li>
+            <li>在读</li>
+            <li style="width:140px;">计算机应用技术</li>
+            <li style="width:160px;">宏科百亿</li>
+            <li style="text-align:center;">6000</li>
+            <li style="text-align:center;">07.05</li>
+          </ul>
+          <ul>
+            <li>刘*楠</li>
+            <li>高中</li>
+            <li>非应届</li>
+            <li style="width:140px;">机电一体化</li>
+            <li style="width:160px;">北京衡联科技有限责任公司</li>
+            <li style="text-align:center;">10000</li>
+            <li style="text-align:center;">06.18</li>
+          </ul>
+          <ul>
+            <li>昌*文</li>
+            <li>本科</li>
+            <li>应届</li>
+            <li style="width:140px;">软件工程</li>
+            <li style="width:160px;">文思海辉</li>
+            <li style="text-align:center;">6800</li>
+            <li style="text-align:center;">06.10</li>
+          </ul>
+          <ul>
+            <li>刘*利</li>
+            <li>专科</li>
+            <li>在读</li>
+            <li style="width:140px;">电子信息</li>
+            <li style="width:160px;">深圳市深龙广博信息科技</li>
+            <li style="text-align:center;">7000</li>
+            <li style="text-align:center;">06.18</li>
+          </ul>
+          <ul>
+            <li>龙*亮</li>
+            <li>本科</li>
+            <li>应届</li>
+            <li style="width:140px;">java工程师</li>
+            <li style="width:160px;">北京衡联科技有限责任公司</li>
+            <li style="text-align:center;">7000</li>
+            <li style="text-align:center;">06.25</li>
+          </ul>
+          <ul>
+            <li>戴*</li>
+            <li>专科</li>
+            <li>应届</li>
+            <li style="width:140px;">机电一体化</li>
+            <li style="width:160px;">天河联盟</li>
+            <li style="text-align:center;">7000</li>
+            <li style="text-align:center;">06.18</li>
+          </ul>
+          <ul>
+            <li>邓*荣</li>
+            <li>本科</li>
+            <li>在读</li>
+            <li style="width:140px;">java工程师</li>
+            <li style="width:160px;">北京衡联科技有限责任公司</li>
+            <li style="text-align:center;">7000</li>
+            <li style="text-align:center;">06.18</li>
+          </ul>
+        </div>
+      </div>
+      <div class="fr">
+        <div style="width:315px;overflow:hidden;"> {dede:arclist typeid='1' row='4' titlelen='50'}
+          <dl>
+            <dt><a href="[field:arcurl/]"><img src='[field:picname/]' border='0' width='120' height='120' alt='[field:title/]'></a></dt>
+            <dd><a href="[field:arcurl/]">[field:title/]</a></dd>
+          </dl>
+          {/dede:arclist} </div>
+      </div>
+    </div>
+  </div>
+  <!--学员作品-->
+  <div class="column_case"> <a href="#"><img src="/skin/images/adv2.jpg"></a>
+    <div class="container">
+      <div style="width:1015px;overflow:hidden;">
+        <dl>
+          <dt><img src="/skin/images/anli.jpg"></dt>
+          <dd class="title">音乐播放器</dd>
+          <dd>音乐播放器是一种用于播放各种音乐文件的多媒体播放软件。它涵盖了各种音乐格式的播放工具，比如：MP3播放器,WMA播放器,MP4播放器等。它们不仅界面美观，而且操作简单，带你进入一个完美的音乐空间。</dd>
+        </dl>
+        <dl>
+          <dt><img src="/skin/images/anli2.jpg"></dt>
+          <dd class="title">百度地图</dd>
+          <dd>百度地图是百度于2005年9月发布的服务项目，它是百度公司联合开发的电子地图服务。通过百度地图搜索，用户可以找到指定的城市、街区、街道、建筑物等所在的地理位置，也可以找到离用户最近的所有餐馆、学校、银行、公园等等。</dd>
+        </dl>
+        <dl>
+          <dt><img src="/skin/images/anli3.jpg"></dt>
+          <dd class="title">手机卫士</dd>
+          <dd>360手机卫士是一款功能强大，永久免费的手机安全软件；360手机卫士安卓版主要功能包括：手机杀毒，手机体检，手机加速，骚扰短信/电话拦截，保护个人隐私，通话归属地显示及查询，手机体检，常用号码查询，长途自动IP拨号等功能，是手机用户必备的手机安全软件。</dd>
+        </dl>
+        <dl>
+          <dt><img src="/skin/images/anli4.jpg"></dt>
+          <dd class="title">新浪微盘</dd>
+          <dd>可用来存储文件，安全永不丢失；还可分享文件到微博，与好友分享快乐；支持电脑、手机等多终端访问，简单易用。</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--精英师资-->
+  <div id="teach" class="cont">
+    <h1>精英师资</h1>
+    <div class="container">
+      <div style="width:1015px;overflow:hidden;">
+        <dl>
+          <dt><img src='/skin/images/1-140r11j304242.jpg' border='0' width='120' height='120' alt='颜利平'></dt>
+          <dd class="name">颜利平</dd>
+          <dd>拥有7年JAVA软件开发工作经验，曾先后供职于方正国际、NEC、中国民航等大型专业软件公司从事Java软件系统的开发、分析、架构设计工作。近年随着云计算、移动互联网时代的来临，开</dd>
+        </dl>
+        <dl>
+          <dt><img src='/skin/images/1-140r11j422402.jpg' border='0' width='120' height='120' alt='郭彬'></dt>
+          <dd class="name">郭彬</dd>
+          <dd>项目经验： 黑马基地Android培训课程研发中心骨干老师，曾担任Android高级开发工程师，拥有6年以上丰富的工作经验。曾担任亚信，联想等公司移动部门技术研发主管及项目经理职位，并</dd>
+        </dl>
+        <dl>
+          <dt><img src='/skin/images/1-140r11j501l1.jpg' border='0' width='120' height='120' alt='王昆'></dt>
+          <dd class="name">王昆</dd>
+          <dd>项目经验： 实力派Android开发工程师，Android培训课程研发团队主力成员，具有丰富的Android开发经验，资深Android研发工程师、项目经理。王老师6年来，一直致力于安卓应用软件及驱动的</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  <!--安卓前景-->
+  <div class="qianj">
+    <div class="hy"><a href="tencent://message/?uin=329435596"><img src="/skin/images/hy_a.jpg"></a></div>
+    <div class="hy2"><a href="tencent://message/?uin=329435596"><img src="/skin/images/hy_a2.jpg"></a></div>
+    <div class="hy3"><a href="tencent://message/?uin=329435596"><img src="/skin/images/hy_a3.jpg"></a></div>
+    <div class="hy4"><a href="tencent://message/?uin=329435596"><img src="/skin/images/hy_a4.jpg"></a></div>
+    <div class="hy5"><a href="tencent://message/?uin=329435596"><img src="/skin/images/hy_a5.jpg"></a></div>
+    <div class="hy6"><a href="tencent://message/?uin=329435596"><img src="/skin/images/hy_a6.jpg"></a></div>
+    <div><img src="/skin/images/hybg7.jpg"></div>
+  </div>
+  <!--学习生活-->
+  <div id="study" class="cont"> {dede:type typeid='5'}
+    <h1><a href="[field:typelink/]" class="fr"><img src="/skin/images/more.jpg"></a>[field:typename/]</h1>
+    {/dede:type}
+    <div class="container">
+      <div style="width:1015px;overflow:hidden;"> {dede:arclist typeid='5' row='5' titlelen='50'}
+        <dl>
+          <dt><a href="[field:arcurl/]"><img src='[field:picname/]' border='0' width='120' height='120' alt='[field:title/]'></a></dt>
+          <dd><a href="[field:arcurl/]">[field:title/]</a></dd>
+        </dl>
+        {/dede:arclist} </div>
+    </div>
+  </div>
+  <!--合作伙伴-->
+  <div id="partner" class="cont">
+    <h1>合作伙伴</h1>
+    <img src="/skin/images/partner.jpg"> </div>
+</div>
+<!---------主体end---------> 
+{dede:include filename="footer.htm"/}
+</body>
+</html>

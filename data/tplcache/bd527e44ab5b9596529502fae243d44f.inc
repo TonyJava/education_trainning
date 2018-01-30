@@ -1,0 +1,1 @@
+<h1><a href="[field:typelink/]" class="fr"><img src="/skin/images/more.jpg"></a>[field:typename/]</h1>
