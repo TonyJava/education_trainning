@@ -1,9 +1,9 @@
 <?php
 $cfg_disable_funs = 'phpinfo,eval,exec,passthru,shell_exec,system,proc_open,popen,curl_exec,curl_multi_exec,parse_ini_file,show_source,file_put_contents';
 $cfg_disable_tags = 'php';
-$cfg_basehost = 'http://test.dede58.com';
+$cfg_basehost = 'http://www.mohupai.cn';
 $cfg_cmspath = '';
-$cfg_cookie_encode = 'McDEOys8TLPFWNow2sqG9yHQTmVls';
+$cfg_cookie_encode = 'crf0PvEbWmYKsacSQtIQ6lgHFpmvos5L';
 $cfg_indexurl = '/';
 $cfg_backup_dir = 'backupdata';
 $cfg_indexname = '主页';

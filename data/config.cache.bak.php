@@ -1,11 +1,11 @@
 <?php
-$cfg_basehost = 'http://test.dede58.com';
+$cfg_basehost = 'http://www.mohupai.cn';
 $cfg_cmspath = '';
-$cfg_cookie_encode = 'McDEOys8TLPFWNow2sqG9yHQTmVls';
+$cfg_cookie_encode = 'crf0PvEbWmYKsacSQtIQ6lgHFpmvos5L';
 $cfg_indexurl = '/';
 $cfg_backup_dir = 'backupdata';
 $cfg_indexname = '主页';
-$cfg_webname = '高端培训机构教育类企业网站';
+$cfg_webname = '我的网站';
 $cfg_adminemail = 'admin@dedecms.com';
 $cfg_html_editor = 'ckeditor';
 $cfg_arcdir = '/a';
