@@ -18,7 +18,10 @@
 <div class="banner">
   <div id="full-screen-slider">
     <ul id="slides">
-      <li style="background:url(/skin/images/banner.jpg) no-repeat center top;left:0px;"></li>
+      {dede:arclist typeid='10' row='5' titlelen='50' infolen='120'}
+      <li style="background:url([field:picname/]) no-repeat center top;left:0px;"></li>
+      {/dede:arclist} 
+      <!--<li style="background:url(/skin/images/banner.jpg) no-repeat center top;left:0px;"></li>
       <li style="background:url(/skin/images/banner2.jpg) no-repeat center top;left:0px;"></li>
       <li style="background:url(/skin/images/banner3.jpg) no-repeat center top;left:0px;"></li>
     </ul>
